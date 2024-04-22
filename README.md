@@ -1,6 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/BHyDwSGZ)
-
-
+![home](<Screenshot (1204).png>)
+![order](<Screenshot (1206).png>)
+![admnin](<Screenshot (1205).png>)
+![contact](<Screenshot (1207).png>)
 # Översikt
 
 Ni skall skapa en sida för en restaurang. Denna sida kommer att presentera er restaurang, koncept, inriktning, kontaktuppgifter m.m. Ni har fria händer att välja vad som skall presenteras. Men, den stora saken för er att skapa är en bokningsfunktionalitet.
@@ -82,3 +83,4 @@ För G
 >Använd css/scss för att skapa animationer vid t.ex. laddning och bokningar.
 
 >Använd er av tjänster för att kommunicera med er blockchain.
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/BHyDwSGZ)
