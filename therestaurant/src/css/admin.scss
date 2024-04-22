@@ -1,0 +1,93 @@
+.admin-login>
+   input {
+        width: 80%;
+       border-radius: 0.3rem;
+        margin: 10px;
+        padding: 10px;
+        border :  1px solid rgb(0, 255, 195);
+        position: relative;
+
+    }
+.admin-page{
+    width: auto;
+    margin: auto;
+    border :  1px solid rgb(0, 255, 195);
+    position: relative;
+  }
+ .admin > h1 {
+    padding: 10px;
+    color: aquamarine;
+    }
+.admin-page > 
+    h1 {
+    padding: 10px;
+    color: aquamarine;
+    }
+    .order{
+    width: auto;
+    margin: 5px 10px;
+    padding: 10px auto;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    
+    cursor: pointer;
+    height: 35px;
+    border-radius: 0.5rem;
+    background-color: rgba(29, 62, 64, 0.927);
+    color: rgb(170, 125, 209);
+    padding: 10px;
+    font-size: 1em;
+    }
+    
+.order > p { 
+    width: 100px; 
+  }
+  
+.order > input{
+    width: 100px;
+    border: 0;
+    }
+    .order > input:disabled {
+    background-color: rgba(255, 255, 255, 0);
+    }
+    
+    
+    .admin-order{
+    width: 80%;
+    border: 2px solid rgb(110, 126, 15);
+    margin: 5px auto;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    right: 0;
+    left: 0;
+    background-color: rgb(41, 11, 75, 0.9);
+    border-radius: 0.5rem;
+    z-index: 2;
+    }
+    .admin-order > h1{
+      font-size: 2rem;
+      padding: 10px;
+      color: rgb(244, 140, 21);
+    }
+    
+     
+.admin-form{
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  gap: 10px;
+}
+
+.admin-form > input {
+  width : 40%;
+  margin: 5px auto;
+  height: 35px;
+}
+
+.order{
+  position: relative;
+}
