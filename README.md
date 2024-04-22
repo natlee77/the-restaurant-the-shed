@@ -2,85 +2,85 @@
 ![order](<Screenshot (1206).png>)
 ![admnin](<Screenshot (1205).png>)
 ![contact](<Screenshot (1207).png>)
-# Översikt
-
-Ni skall skapa en sida för en restaurang. Denna sida kommer att presentera er restaurang, koncept, inriktning, kontaktuppgifter m.m. Ni har fria händer att välja vad som skall presenteras. Men, den stora saken för er att skapa är en bokningsfunktionalitet.
-
-Ni behöver skapa en grafisk profil (ingenting som behöver redovisas) som visar att ni har en genomtänkt design, färgpaletter och en grundlayout. Försök att få denna restaurang att bli så bra ni kan göra den, både sett till kod men även hur resultatet ser ut i webbläsaren (eller telefonen).
+#  
+ a page for a restaurant. This page will present your restaurant, concept, orientation, contact details, etc. WITH a booking functionality in the browser (or phone).
 
  
-# Sidor
+# Pages
 
-Följande sidor måste finnas med: Startsida, bokningssida och en kontaktsida. Om ni vill ha ytterligare sidor går det bra att lägga till.
-
- 
-# Beskrivning av bokningen
-
-Utgå ifrån att restaurangen har 15 bord för sex personer vid varje bord. Restaurangen har två sittningar varje kväll, en klockan 18:00 och en klockan 21:00. Detta innebär att samtliga bord bör gå att boka två gånger per kväll.
-
-Skapa utifrån detta en applikation där det går att söka fram information för ett givet datum eller vecka. Användaren skall kunna välja en tid för den valda dagen. Samla in personuppgifter, upplys om gdpr och se till att bokningen genomförs.
-
-I ett adminläge bör bokningar kunna administreras (modifieras, tas bort, läggas till) för personalen på restaurangen.
+The following pages must be included:
+>- Start page,
+>- booking page and a 
+>- contact page. 
+>- If you want additional pages, it is fine to add them.
 
  
-# Teknisk beskrivning
+# Description of the booking
 
-Ni har fått ett kontrakt som innehåller den funktionalitet som ni behöver för att klara denna uppgift.
+Assume that the restaurant has 15 tables for six people at each table. The restaurant has two sittings every evening, one at 18:00 and one at 21:00. This means that all tables should be bookable twice per evening.
 
-I detta kontrakt finns följande funktioner:
+Based on this, create an application where it is possible to search for information for a given date or week. The user must be able to choose a time for the selected day. Collect personal data, inform about gdpr and ensure that the booking is carried out.
 
- 
-
->Skapa restaurang – används bara en gång för att skapa en restaurang åt er. Denna restaurang kommer att innehålla dina bokningar.
-
->Skapa bokning – används varje gång en ny bokning skall skapas.
-
->Ta bort bokning – används när en bokning skall tas bort
-
->Hämta bokningar – används när bokningar för restaurangen skall hämtas
+In an admin mode, bookings should be able to be administered (modified, removed, added) for the staff of the restaurant.
 
  
+# Technical description
 
-Tänk på att när ni skapar er restaurang får ni tillbaka ett id. Detta id är ert restaurang-id som behöver användas med nästan alla efterföljande anrop. T.ex. om ni vill skapa en bokning behöver ni ange vilket restaurangid som skall användas.
+You have received a contract that contains the functionality you need to complete this task.
+
+This contract includes the following features:
+
+ 
+>Create restaurant - used only once to create a restaurant for you. This restaurant will contain your reservations.
+
+>Create booking – used every time a new booking is to be created.
+
+>Remove booking – used when a booking is to be deleted
+
+>Retrieve reservations – used when reservations for the restaurant are to be retrieved
 
  
 
-Att söka bord bör göras via ett formulär där användaren får ange antal personer (1-6) och önskat datum. Om det fanns bord kvar så visas vilken/vilka tider som är tillgängliga. Om det inte finns bord kvar kommer en varningstext upp och användaren får söka igen.
+Keep in mind that when you create your restaurant, you get an ID back. This ID is your restaurant ID which needs to be used with almost all subsequent calls. For example. if you want to create a booking, you need to specify which restaurant ID is to be used.
 
-När användaren har valt tid kommer ytterligare ett formulär upp där användaren får skriva namn, e-post och telefonnummer. Spara eller Avbryt där Spara skriver ner bokningen i er blockchain.
+Searching for a table should be done via a form where the user can enter the number of people (1-6) and the desired date. If there were tables left, the time(s) available will be shown. If there are no tables left, a warning text appears and the user must search again.
 
-För adminläget är det ett enklare CRUD-tänk som gäller.
+When the user has chosen a time, another form appears where the user can write name, e-mail and phone number. Save or Cancel where Save writes the booking into your blockchain.
 
-Projektet skall finnas i ett git-repo och samtliga studenters commits skall finnas med.
+For the admin mode, a simpler CRUD approach applies.
 
-Trello eller liknande verktyg skall användas som verktyg för projektet. Det skall framgå vem som arbetat med vilken punkt.
+The project must be in a git repo and all students' commits must be included.
+
+Trello or similar tools must be used as tools for the project. It must be stated who worked on which point.
 
  
 För G
+>A working application with all pages set up with react router.
 
->En fungerande applikation med samtliga sidor uppsatta med react router.
+>The result from the search (of free times) must be presented in a well-thought-out way, perhaps through a radio button list or a drop-down menu.
 
->Resultatet från sökningen (av lediga tider) skall presenteras på ett genomtänkt sätt, kanske genom en radioknappslista eller en rullgardinsmeny.
+>The administration interface is included.
 
->Administrationsgränssnittet finns med.
+>Be able to display existing bookings.
 
->Kunna visa befintliga bokningar.
+>Can delete a booking.
 
->Kunna ta bort en bokning.
+>Your application is responsive.
 
->Er applikation är responsiv.
+>The code must be well documented.
 
->Koden skall vara väldokumenterad.
+>The code must be well thought out and have a clear structure.
 
->Koden skall vara genomtänkt och ha en tydlig struktur.
+>The file structure in the project must be good.
 
->Filstrukturen i projektet skall vara god.
+>The form contains validation and error messages.
 
->Formulären innehåller validering och felmeddelanden.
+>Manage changes to an existing booking.
 
->Hantera ändringar i en befintlig bokning.
+>Use css/scss to create animations at e.g. charging and bookings.
 
->Använd css/scss för att skapa animationer vid t.ex. laddning och bokningar.
+ 
+>Use services to communicate with your blockchain.
 
->Använd er av tjänster för att kommunicera med er blockchain.
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/BHyDwSGZ)
